@@ -10,7 +10,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&6An EaglercraftX server'
+  - '"&1&k0000000000000000&r &b&lMonroe Public School &f(&e&lSurvival Mode&f) &1&k0000000000000000"'
   allow_motd: true
   allow_query: true
   request_motd_cache:
