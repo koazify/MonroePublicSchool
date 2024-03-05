@@ -228,3 +228,7 @@
 
 [20:17:04] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[21:34:05] [Thread-10/INFO]: UUID of player JamalCanBall is 1ed8a119-a2f3-3123-9161-5cc284ad9606
+[21:34:06] [Server thread/INFO]: JamalCanBall[/[0:0:0:0:0:0:0:1]:44510] logged in with entity id 998 at ([world]121.5, 58.0, 48.5)
+[21:36:24] [Server thread/INFO]: JamalCanBall issued server command: //wand
+[21:36:28] [Server thread/INFO]: JamalCanBall issued server command: /gamemode 1
