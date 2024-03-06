@@ -1,582 +1,369 @@
-[02:34:34] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[02:34:34] [Server thread/INFO]: Loading properties
-[02:34:34] [Server thread/INFO]: Default game type: SURVIVAL
-[02:34:34] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[02:34:35] [Server thread/INFO]: Debug logging is disabled
-[02:34:35] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[02:34:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:27:55] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:27:55] [Server thread/INFO]: Loading properties
+[12:27:55] [Server thread/INFO]: Default game type: SURVIVAL
+[12:27:55] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:27:56] [Server thread/INFO]: Debug logging is disabled
+[12:27:56] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:27:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[02:34:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:34:35] [Server thread/INFO]: Data value allowed items: 
-[02:34:35] [Server thread/INFO]: Disabling player interaction limiter, your server may be more vulnerable to malicious users
-[02:34:35] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[12:27:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:27:56] [Server thread/INFO]: Data value allowed items: 
+[12:27:56] [Server thread/INFO]: Disabling player interaction limiter, your server may be more vulnerable to malicious users
+[12:27:56] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[02:34:35] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[12:27:56] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[02:34:35] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[12:27:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[02:34:35] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[12:27:56] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[02:34:35] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[12:27:56] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[02:34:35] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[12:27:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[02:34:35] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[12:27:56] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[02:34:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[12:27:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[02:34:35] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[12:27:56] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[02:34:35] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:27:56] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[02:34:35] [Server thread/INFO]: Generating keypair
-[02:34:35] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[02:34:35] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[02:34:35] [Server thread/INFO]: Using default channel type
-[02:34:35] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
-[02:34:35] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[02:34:35] [Server thread/ERROR]: Could not load 'plugins/Mcmmorankup.jar' in folder 'plugins'
+[12:27:56] [Server thread/INFO]: Generating keypair
+[12:27:56] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:27:56] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:27:56] [Server thread/INFO]: Using default channel type
+[12:27:56] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[12:27:56] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:27:56] [Server thread/ERROR]: Could not load 'plugins/Mcmmorankup.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Vault
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:34:35] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.3.1
-[02:34:35] [Server thread/INFO]: [Shop] Loading Shop v1.3
-[02:34:35] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[02:34:35] [Server thread/INFO]: [FakePlayersOnline] Loading FakePlayersOnline v0.1.0
-[02:34:35] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
-[02:34:35] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[02:34:35] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[02:34:36] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
-[02:34:36] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
-[02:34:36] [Server thread/INFO]: [ToolStats] Loading ToolStats v1.1.4
-[02:34:36] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[02:34:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:34:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:34:36] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[02:34:36] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[02:34:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:34:36] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[02:34:36] [Server thread/INFO]: Preparing level "world"
-[02:34:36] [Server thread/INFO]: -------- World Settings For [world] --------
-[02:34:36] [Server thread/INFO]: Mob Spawn Range: 4
-[02:34:36] [Server thread/INFO]: Anti X-Ray: true
-[02:34:36] [Server thread/INFO]: 	Engine Mode: 1
-[02:34:36] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[02:34:36] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[02:34:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:34:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[02:34:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:34:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[02:34:36] [Server thread/INFO]: Random Lighting Updates: false
-[02:34:36] [Server thread/INFO]: Structure Info Saving: true
-[02:34:36] [Server thread/INFO]: Sending up to 10 chunks per packet
-[02:34:36] [Server thread/INFO]: Max Entity Collisions: 8
-[02:34:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[02:34:36] [Server thread/INFO]: Max TNT Explosions: 100
-[02:34:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:34:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:34:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:34:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:34:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[02:34:36] [Server thread/INFO]: View Distance: 4
-[02:34:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:34:36] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[02:34:36] [Server thread/INFO]: Clear tick list: false
-[02:34:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:34:36] [Server thread/INFO]: -------- World Settings For [world] --------
-[02:34:36] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[02:34:36] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[02:34:36] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[02:34:36] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[02:34:36] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[02:34:36] [Server thread/INFO]: Water over lava flow speed: 5
-[02:34:36] [Server thread/INFO]: Fix TNT cannons: false
-[02:34:36] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[02:34:36] [Server thread/INFO]: Keep spawn chunk loaded: true
-[02:34:36] [Server thread/INFO]: World async lighting: false
-[02:34:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[02:34:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[02:34:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[02:34:36] [Server thread/INFO]: Mob Spawn Range: 4
-[02:34:36] [Server thread/INFO]: Anti X-Ray: true
-[02:34:36] [Server thread/INFO]: 	Engine Mode: 1
-[02:34:36] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[02:34:36] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[02:34:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:34:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[02:34:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:34:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[02:34:36] [Server thread/INFO]: Random Lighting Updates: false
-[02:34:36] [Server thread/INFO]: Structure Info Saving: true
-[02:34:36] [Server thread/INFO]: Sending up to 10 chunks per packet
-[02:34:36] [Server thread/INFO]: Max Entity Collisions: 8
-[02:34:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[02:34:36] [Server thread/INFO]: Max TNT Explosions: 100
-[02:34:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:34:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:34:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:34:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:34:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[02:34:36] [Server thread/INFO]: View Distance: 4
-[02:34:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:34:36] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[02:34:36] [Server thread/INFO]: Clear tick list: false
-[02:34:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:34:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[02:34:36] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[02:34:36] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[02:34:36] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[02:34:36] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[02:34:36] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[02:34:36] [Server thread/INFO]: Water over lava flow speed: 5
-[02:34:36] [Server thread/INFO]: Fix TNT cannons: false
-[02:34:36] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[02:34:36] [Server thread/INFO]: Keep spawn chunk loaded: true
-[02:34:36] [Server thread/INFO]: World async lighting: false
-[02:34:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[02:34:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[02:34:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[02:34:36] [Server thread/INFO]: Mob Spawn Range: 4
-[02:34:36] [Server thread/INFO]: Anti X-Ray: true
-[02:34:36] [Server thread/INFO]: 	Engine Mode: 1
-[02:34:36] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[02:34:36] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[02:34:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:34:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:34:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[02:34:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:34:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[02:34:36] [Server thread/INFO]: Random Lighting Updates: false
-[02:34:36] [Server thread/INFO]: Structure Info Saving: true
-[02:34:36] [Server thread/INFO]: Sending up to 10 chunks per packet
-[02:34:36] [Server thread/INFO]: Max Entity Collisions: 8
-[02:34:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[02:34:36] [Server thread/INFO]: Max TNT Explosions: 100
-[02:34:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:34:36] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:34:36] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:34:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:34:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[02:34:36] [Server thread/INFO]: View Distance: 4
-[02:34:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:34:36] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[02:34:36] [Server thread/INFO]: Clear tick list: false
-[02:34:36] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:34:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[02:34:36] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[02:34:36] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[02:34:36] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[02:34:36] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[02:34:36] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[02:34:36] [Server thread/INFO]: Water over lava flow speed: 5
-[02:34:36] [Server thread/INFO]: Fix TNT cannons: false
-[02:34:36] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[02:34:36] [Server thread/INFO]: Keep spawn chunk loaded: true
-[02:34:36] [Server thread/INFO]: World async lighting: false
-[02:34:36] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[02:34:36] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[02:34:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8993774921365475024)
-[02:34:37] [Server thread/INFO]: Preparing spawn area: 57%
-[02:34:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8993774921365475024)
-[02:34:39] [Server thread/INFO]: Preparing spawn area: 11%
-[02:34:40] [Server thread/INFO]: Preparing spawn area: 93%
-[02:34:40] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8993774921365475024)
-[02:34:40] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.3.1
-[02:34:40] [Server thread/INFO]: [ClearLag] Checking for a new update...
-[02:34:41] [Thread-5/WARN]: [ClearLag] Could not reach dev.bukkit.org for update checking. Is it offline?
-[02:34:41] [Server thread/INFO]: [ClearLag] Update found! Downloading...
-[02:34:41] [Server thread/INFO]: [ClearLag] New clearlag will be enabled on restart!
-[02:34:41] [Server thread/INFO]: [ClearLag] ClearLag is now enabled.
-[02:34:41] [Server thread/INFO]: [Shop] Enabling Shop v1.3
-[02:34:41] [Server thread/INFO]: [Shop] Shops will use emerald as the physical economy on the server.
-
-[02:34:41] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[02:34:41] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[02:34:41] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[02:34:41] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] Enabling FakePlayersOnline v0.1.0
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] Citizens is not found!
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] ProtocolLib is not found!
-[02:34:41] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_8_R3.Packet201PlayerInfo
+[12:27:56] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.3.1
+[12:27:56] [Server thread/INFO]: [Shop] Loading Shop v1.3
+[12:27:56] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[12:27:56] [Server thread/INFO]: [FakePlayersOnline] Loading FakePlayersOnline v0.1.0
+[12:27:56] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[12:27:56] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[12:27:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[12:27:56] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
+[12:27:56] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[12:27:56] [Server thread/INFO]: [ToolStats] Loading ToolStats v1.1.4
+[12:27:56] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[12:27:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:27:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:27:56] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:27:56] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:27:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:27:56] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:27:56] [Server thread/INFO]: Preparing level "world"
+[12:27:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:27:56] [Server thread/INFO]: Mob Spawn Range: 4
+[12:27:56] [Server thread/INFO]: Anti X-Ray: true
+[12:27:56] [Server thread/INFO]: 	Engine Mode: 1
+[12:27:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:27:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:27:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:27:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:27:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:27:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:27:56] [Server thread/INFO]: Random Lighting Updates: false
+[12:27:56] [Server thread/INFO]: Structure Info Saving: true
+[12:27:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:27:56] [Server thread/INFO]: Max Entity Collisions: 8
+[12:27:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:27:56] [Server thread/INFO]: Max TNT Explosions: 100
+[12:27:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:27:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:27:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:27:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:27:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:27:56] [Server thread/INFO]: View Distance: 4
+[12:27:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:27:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:27:56] [Server thread/INFO]: Clear tick list: false
+[12:27:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:27:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:27:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:27:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:27:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:27:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:27:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:27:56] [Server thread/INFO]: Fix TNT cannons: false
+[12:27:56] [Server thread/INFO]: Water over lava flow speed: 5
+[12:27:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:27:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:27:56] [Server thread/INFO]: World async lighting: false
+[12:27:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:27:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:27:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:27:56] [Server thread/INFO]: Mob Spawn Range: 4
+[12:27:56] [Server thread/INFO]: Anti X-Ray: true
+[12:27:56] [Server thread/INFO]: 	Engine Mode: 1
+[12:27:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:27:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:27:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:27:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:27:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:27:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:27:56] [Server thread/INFO]: Random Lighting Updates: false
+[12:27:56] [Server thread/INFO]: Structure Info Saving: true
+[12:27:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:27:56] [Server thread/INFO]: Max Entity Collisions: 8
+[12:27:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:27:56] [Server thread/INFO]: Max TNT Explosions: 100
+[12:27:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:27:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:27:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:27:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:27:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:27:56] [Server thread/INFO]: View Distance: 4
+[12:27:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:27:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:27:56] [Server thread/INFO]: Clear tick list: false
+[12:27:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:27:56] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:27:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:27:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:27:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:27:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:27:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:27:56] [Server thread/INFO]: Fix TNT cannons: false
+[12:27:56] [Server thread/INFO]: Water over lava flow speed: 5
+[12:27:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:27:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:27:56] [Server thread/INFO]: World async lighting: false
+[12:27:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:27:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:27:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:27:56] [Server thread/INFO]: Mob Spawn Range: 4
+[12:27:56] [Server thread/INFO]: Anti X-Ray: true
+[12:27:56] [Server thread/INFO]: 	Engine Mode: 1
+[12:27:56] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:27:56] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:27:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:27:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:27:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:27:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:27:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:27:56] [Server thread/INFO]: Random Lighting Updates: false
+[12:27:56] [Server thread/INFO]: Structure Info Saving: true
+[12:27:56] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:27:56] [Server thread/INFO]: Max Entity Collisions: 8
+[12:27:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:27:56] [Server thread/INFO]: Max TNT Explosions: 100
+[12:27:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:27:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:27:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:27:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:27:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:27:56] [Server thread/INFO]: View Distance: 4
+[12:27:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:27:56] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:27:56] [Server thread/INFO]: Clear tick list: false
+[12:27:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:27:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:27:56] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:27:56] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:27:56] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:27:56] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:27:56] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:27:56] [Server thread/INFO]: Fix TNT cannons: false
+[12:27:56] [Server thread/INFO]: Water over lava flow speed: 5
+[12:27:56] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:27:56] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:27:56] [Server thread/INFO]: World async lighting: false
+[12:27:56] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:27:56] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:27:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8993774921365475024)
+[12:27:57] [Server thread/INFO]: Preparing spawn area: 64%
+[12:27:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8993774921365475024)
+[12:27:59] [Server thread/INFO]: Preparing spawn area: 77%
+[12:27:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8993774921365475024)
+[12:27:59] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.3.1
+[12:27:59] [Server thread/INFO]: [ClearLag] Checking for a new update...
+[12:27:59] [Thread-5/WARN]: [ClearLag] Could not reach dev.bukkit.org for update checking. Is it offline?
+[12:27:59] [Server thread/INFO]: [ClearLag] Update found! Downloading...
+[12:27:59] [Server thread/INFO]: [ClearLag] New clearlag will be enabled on restart!
+[12:27:59] [Server thread/INFO]: [ClearLag] ClearLag is now enabled.
+[12:27:59] [Server thread/INFO]: [Shop] Enabling Shop v1.3
+[12:27:59] [Server thread/INFO]: [Shop] Shops will use emerald as the physical economy on the server.
+
+[12:27:59] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[12:27:59] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[12:27:59] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[12:27:59] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] Enabling FakePlayersOnline v0.1.0
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] Citizens is not found!
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] ProtocolLib is not found!
+[12:27:59] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_8_R3.Packet201PlayerInfo
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92)
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87)
 
-[02:34:41] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[12:27:59] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
 
-[02:34:41] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[12:27:59] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
 
-[02:34:41] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[12:27:59] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
 
-[02:34:41] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:421)
+[12:27:59] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:421)
 
-[02:34:41] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:412)
+[12:27:59] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:412)
 
-[02:34:41] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FPOcbo.nmsClass(FPOcbo.java:114)
+[12:27:59] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FPOcbo.nmsClass(FPOcbo.java:114)
 
-[02:34:41] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FPOcbo.init(FPOcbo.java:87)
+[12:27:59] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FPOcbo.init(FPOcbo.java:87)
 
-[02:34:41] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FakePlayersOnline.onEnable(FakePlayersOnline.java:111)
+[12:27:59] [Server thread/WARN]: 	at me.fromgate.fakeplayersonline.FakePlayersOnline.onEnable(FakePlayersOnline.java:111)
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
 
-[02:34:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[12:27:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
 
-[02:34:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+[12:27:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
 
-[02:34:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+[12:27:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
 
-[02:34:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+[12:27:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
 
-[02:34:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+[12:27:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
 
-[02:34:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[12:27:59] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[02:34:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:27:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] +---------------------------------------------------------------------+
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] + WARNING!!! THIS PLUGIN IS NOT COMPATIBLE WITH CRAFTBUKKIT v1.8.R3    +
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] + FakePlayersOnline will not work correctly. Please check updates at: +
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] + http://dev.bukkit.org/server-mods/fakeplayers/                      +
-[02:34:41] [Server thread/INFO]: [FakePlayersOnline] +---------------------------------------------------------------------+
-[02:34:41] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[02:34:41] [Server thread/INFO]: Check 1 passed
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] +---------------------------------------------------------------------+
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] + WARNING!!! THIS PLUGIN IS NOT COMPATIBLE WITH CRAFTBUKKIT v1.8.R3    +
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] + FakePlayersOnline will not work correctly. Please check updates at: +
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] + http://dev.bukkit.org/server-mods/fakeplayers/                      +
+[12:27:59] [Server thread/INFO]: [FakePlayersOnline] +---------------------------------------------------------------------+
+[12:27:59] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[12:27:59] [Server thread/INFO]: Check 1 passed
 
-[02:34:42] [Server thread/INFO]: Check 3 passed
+[12:28:00] [Server thread/INFO]: Check 3 passed
 
-[02:34:42] [Server thread/INFO]: --------------------------------------------[m
+[12:28:00] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:42] [Server thread/INFO]: --------------------------------------------[m
+[12:28:00] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:42] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[12:28:00] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[02:34:42] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[12:28:00] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[02:34:42] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[12:28:00] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[02:34:42] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[12:28:00] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[02:34:42] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[12:28:00] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[02:34:42] [Server thread/INFO]: --------------------------------------------[m
+[12:28:00] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:42] [Server thread/INFO]: --------------------------------------------[m
+[12:28:00] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:42] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[02:34:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[02:34:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:34:44] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[02:34:44] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
-[02:34:44] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
-[02:34:44] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
-[02:34:44] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
+[12:28:00] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[12:28:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[12:28:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:28:01] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:28:01] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
+[12:28:01] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
+[12:28:01] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[12:28:01] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
+[12:28:01] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
 
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[02:34:44] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[02:34:44] [Server thread/INFO]: Check 1 passed
-
-[02:34:44] [Server thread/INFO]: Check 3 passed
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
-
-[02:34:44] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
-
-[02:34:44] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
-
-[02:34:44] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
-
-[02:34:44] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
-
-[02:34:44] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: --------------------------------------------[m
-
-[02:34:44] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.1.4
-[02:34:44] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[02:34:44] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[02:34:44] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[02:34:44] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[02:34:44] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[02:34:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:34:44] [Server thread/INFO]: Done (8.870s)! For help, type "help" or "?"
-[02:34:44] [Server thread/INFO]: Timings Reset
-[02:34:44] [Craft Scheduler Thread - 0/INFO]: [Metrics] Connection refused
-[02:34:44] [Craft Scheduler Thread - 2/WARN]: [Fatal Error] :1:1: Premature end of file.
-
-[02:34:45] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[02:34:45] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[02:34:45] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[02:35:51] [Thread-8/INFO]: UUID of player JamalCanBall is 1ed8a119-a2f3-3123-9161-5cc284ad9606
-[02:35:51] [Server thread/INFO]: JamalCanBall[/[0:0:0:0:0:0:0:1]:44810] logged in with entity id 64 at ([world]102.92521549941533, 68.0, 6.403370961159794)
-[02:36:28] [Server thread/INFO]: JamalCanBall issued server command: //wand
-[02:36:33] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:37:22] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:37:29] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:37:56] [Server thread/INFO]: JamalCanBall issued server command: //set glass_pane
-[02:38:02] [Server thread/INFO]: JamalCanBall issued server command: //set glass_pane
-[02:38:13] [Server thread/INFO]: JamalCanBall issued server command: //set door
-[02:38:25] [Server thread/INFO]: JamalCanBall issued server command: //set cobble stone
-[02:38:28] [Server thread/INFO]: JamalCanBall issued server command: //set cobblestone
-[02:38:41] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:39:39] [Server thread/INFO]: JamalCanBall issued server command: //set cobblestone
-[02:39:44] [Server thread/INFO]: JamalCanBall issued server command: /time set day
-[02:39:44] [Server thread/INFO]: [JamalCanBall: Set the time to 1000]
-[02:39:52] [Server thread/INFO]: JamalCanBall issued server command: //undo
-[02:40:02] [Server thread/INFO]: JamalCanBall issued server command: //set cobblestone
-[02:40:06] [Server thread/INFO]: JamalCanBall issued server command: //set cobblestone
-[02:40:10] [Server thread/INFO]: JamalCanBall issued server command: //undo
-[02:40:14] [Server thread/INFO]: JamalCanBall issued server command: //undo
-[02:40:32] [Server thread/INFO]: JamalCanBall issued server command: //set cobbestone
-[02:41:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[02:41:36] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:41:47] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:41:49] [Async Chat Thread - #0/INFO]: <JamalCanBall> 6[m
-
-[02:42:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[02:43:49] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:43:59] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:44:03] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:44:44] [Craft Scheduler Thread - 5/INFO]: [Metrics] Connection refused
-[02:45:44] [Craft Scheduler Thread - 6/WARN]: [Fatal Error] :1:1: Premature end of file.
-
-[02:46:42] [Server thread/INFO]: JamalCanBall issued server command: /time set midnight
-[02:46:42] [Server thread/INFO]: [JamalCanBall: 'midnight' is not a valid number]
-[02:46:50] [Server thread/INFO]: JamalCanBall issued server command: /time set night
-[02:46:50] [Server thread/INFO]: [JamalCanBall: Set the time to 13000]
-[02:47:54] [Server thread/INFO]: JamalCanBall issued server command: /vault
-[02:48:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[02:49:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 9 Entities![m
-
-[02:52:20] [Server thread/INFO]: JamalCanBall issued server command: //set cobblestone
-[02:52:24] [Server thread/INFO]: JamalCanBall issued server command: //undo
-[02:52:32] [Server thread/INFO]: JamalCanBall issued server command: //set cobblestone
-[02:52:42] [Server thread/INFO]: JamalCanBall issued server command: //set sand
-[02:52:47] [Server thread/INFO]: JamalCanBall issued server command: //set sand
-[02:52:55] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:53:25] [Server thread/INFO]: JamalCanBall issued server command: //set wood
-[02:53:32] [Server thread/INFO]: JamalCanBall issued server command: //set sand
-[02:53:41] [Server thread/INFO]: JamalCanBall issued server command: //set sand
-[02:53:49] [Server thread/INFO]: JamalCanBall issued server command: //set sand
-[02:54:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[02:54:45] [Craft Scheduler Thread - 8/INFO]: [Metrics] Connection refused
-[02:54:45] [Server thread/INFO]: JamalCanBall issued server command: //set sand
-[02:54:51] [Server thread/INFO]: JamalCanBall issued server command: //undo
-[02:55:00] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:55:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 7 Entities![m
-
-[02:56:21] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:56:31] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:56:47] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:56:54] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:56:57] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:01] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:04] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:07] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:09] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:12] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:14] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:18] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:21] [Server thread/INFO]: JamalCanBall issued server command: /
-[02:57:23] [Server thread/INFO]: JamalCanBall issued server command: //replace grass sand
-[02:57:41] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:57:54] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:57:57] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:58:13] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[02:58:19] [Server thread/INFO]: JamalCanBall issued server command: //set air
-[03:01:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[03:02:03] [Server thread/INFO]: JamalCanBall lost connection: Disconnected
-[03:02:03] [Server thread/INFO]: JamalCanBall left the game.
-[03:02:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 5 Entities![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:04:16] [Thread-10/INFO]: UUID of player JamalCanBall is 1ed8a119-a2f3-3123-9161-5cc284ad9606
-[03:04:16] [Server thread/INFO]: JamalCanBall[/[0:0:0:0:0:0:0:1]:48846] logged in with entity id 724 at ([world]105.10663508977686, 72.33564260772937, 7.385296352673223)
-[03:04:44] [Craft Scheduler Thread - 9/INFO]: [Metrics] Connection refused
-[03:08:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[12:28:01] [Server thread/INFO]: Check 1 passed
 
-[03:09:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+[12:28:01] [Server thread/INFO]: Check 3 passed
 
-[03:10:36] [Server thread/INFO]: JamalCanBall issued server command: /time set night
-[03:10:36] [Server thread/INFO]: [JamalCanBall: Set the time to 13000]
-[03:10:48] [Server thread/INFO]: JamalCanBall issued server command: /tp JamalCanBall ~~1~
-[03:10:48] [Server thread/INFO]: [JamalCanBall: The entity UUID provided is in an invalid format]
-[03:14:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:14:44] [Craft Scheduler Thread - 10/INFO]: [Metrics] Connection refused
-[03:15:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:20:15] [Server thread/INFO]: JamalCanBall issued server command: /time set night
-[03:20:15] [Server thread/INFO]: [JamalCanBall: Set the time to 13000]
-[03:20:33] [Server thread/INFO]: JamalCanBall issued server command: /time set night
-[03:20:33] [Server thread/INFO]: [JamalCanBall: Set the time to 13000]
-[03:21:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[03:22:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[12:28:01] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[03:24:44] [Craft Scheduler Thread - 15/INFO]: [Metrics] Connection refused
-[03:28:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[03:29:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 7 Entities![m
+[12:28:01] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[03:30:00] [Server thread/INFO]: JamalCanBall lost connection: Disconnected
-[03:30:00] [Server thread/INFO]: JamalCanBall left the game.
-[03:30:16] [Thread-12/INFO]: UUID of player JamalCanBall is 1ed8a119-a2f3-3123-9161-5cc284ad9606
-[03:30:16] [Server thread/INFO]: JamalCanBall[/[0:0:0:0:0:0:0:1]:49204] logged in with entity id 1115 at ([world]101.69999998807907, 67.20000004768372, 3.6999999880790737)
-[03:32:03] [Server thread/INFO]: JamalCanBall lost connection: Disconnected
-[03:32:03] [Server thread/INFO]: JamalCanBall left the game.
-[03:32:06] [Thread-13/INFO]: UUID of player JamalCanBall is 1ed8a119-a2f3-3123-9161-5cc284ad9606
-[03:32:06] [Server thread/INFO]: JamalCanBall[/[0:0:0:0:0:0:0:1]:43830] logged in with entity id 1145 at ([world]106.06587022507505, 68.20000004768363, 6.4895656996141735)
-[03:34:08] [Server thread/INFO]: JamalCanBall lost connection: Disconnected
-[03:34:08] [Server thread/INFO]: JamalCanBall left the game.
-[03:34:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[03:34:44] [Craft Scheduler Thread - 18/INFO]: [Metrics] Connection refused
-[03:34:58] [Thread-14/INFO]: UUID of player JamalCanBall is 1ed8a119-a2f3-3123-9161-5cc284ad9606
-[03:34:58] [Server thread/INFO]: JamalCanBall[/[0:0:0:0:0:0:0:1]:37020] logged in with entity id 1254 at ([world]113.32628422507894, 67.0, 2.8299830078576376)
-[03:35:11] [Server thread/INFO]: JamalCanBall issued server command: /gamemode 0
-[03:35:23] [Server thread/INFO]: JamalCanBall issued server command: /gamemode 0
-[03:35:23] [Server thread/INFO]: [JamalCanBall: Set own game mode to Survival Mode]
-[03:35:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:36:15] [Server thread/INFO]: JamalCanBall lost connection: Disconnected
-[03:36:15] [Server thread/INFO]: JamalCanBall left the game.
-[03:41:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:42:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:44:44] [Craft Scheduler Thread - 20/INFO]: [Metrics] Connection refused
-[03:45:45] [Craft Scheduler Thread - 20/WARN]: [Fatal Error] :1:1: Premature end of file.
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:48:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
 
-[03:49:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[12:28:01] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
 
-[03:54:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[03:54:44] [Craft Scheduler Thread - 21/INFO]: [Metrics] Connection refused
-[03:55:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[12:28:01] [Server thread/INFO]: --------------------------------------------[m
 
-[04:01:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Server thread/INFO]: [ToolStats] Enabling ToolStats v1.1.4
+[12:28:01] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[12:28:01] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:28:01] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:28:01] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:28:01] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:28:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:28:01] [Server thread/INFO]: Done (4.778s)! For help, type "help" or "?"
+[12:28:01] [Server thread/INFO]: Timings Reset
+[12:28:01] [Craft Scheduler Thread - 0/INFO]: [Metrics] Connection refused
+[12:28:01] [Craft Scheduler Thread - 0/WARN]: [Fatal Error] :1:1: Premature end of file.
 
-[04:02:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+[12:28:01] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[04:04:44] [Craft Scheduler Thread - 23/INFO]: [Metrics] Connection refused
-[04:08:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+[12:28:01] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[04:09:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[04:14:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:14:44] [Craft Scheduler Thread - 24/INFO]: [Metrics] Connection refused
-[04:15:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
-
-[04:21:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:22:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
-
-[04:24:44] [Craft Scheduler Thread - 28/INFO]: [Metrics] Connection refused
-[04:28:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:29:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[04:34:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:34:44] [Craft Scheduler Thread - 30/INFO]: [Metrics] Connection refused
-[04:35:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[04:41:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:42:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[04:44:44] [Craft Scheduler Thread - 33/INFO]: [Metrics] Connection refused
-[04:45:44] [Craft Scheduler Thread - 34/WARN]: [Fatal Error] :1:1: Premature end of file.
-
-[04:48:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:49:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[04:54:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[04:54:45] [Craft Scheduler Thread - 35/INFO]: [Metrics] Connection refused
-[04:55:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
-
-[05:01:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[05:02:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[05:04:44] [Craft Scheduler Thread - 37/INFO]: [Metrics] Connection refused
-[05:08:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[05:09:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
-
-[05:14:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
-
-[05:14:45] [Craft Scheduler Thread - 38/INFO]: [Metrics] Connection refused
-[05:15:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+[12:28:01] [Craft Scheduler Thread - 1/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
