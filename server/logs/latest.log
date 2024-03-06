@@ -506,3 +506,77 @@ org.bukkit.plugin.UnknownDependencyException: Vault
 
 [03:36:15] [Server thread/INFO]: JamalCanBall lost connection: Disconnected
 [03:36:15] [Server thread/INFO]: JamalCanBall left the game.
+[03:41:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[03:42:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[03:44:44] [Craft Scheduler Thread - 20/INFO]: [Metrics] Connection refused
+[03:45:45] [Craft Scheduler Thread - 20/WARN]: [Fatal Error] :1:1: Premature end of file.
+
+[03:48:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[03:49:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[03:54:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[03:54:44] [Craft Scheduler Thread - 21/INFO]: [Metrics] Connection refused
+[03:55:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[04:01:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:02:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[04:04:44] [Craft Scheduler Thread - 23/INFO]: [Metrics] Connection refused
+[04:08:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:09:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[04:14:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:14:44] [Craft Scheduler Thread - 24/INFO]: [Metrics] Connection refused
+[04:15:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[04:21:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:22:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[04:24:44] [Craft Scheduler Thread - 28/INFO]: [Metrics] Connection refused
+[04:28:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:29:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[04:34:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:34:44] [Craft Scheduler Thread - 30/INFO]: [Metrics] Connection refused
+[04:35:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[04:41:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:42:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[04:44:44] [Craft Scheduler Thread - 33/INFO]: [Metrics] Connection refused
+[04:45:44] [Craft Scheduler Thread - 34/WARN]: [Fatal Error] :1:1: Premature end of file.
+
+[04:48:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:49:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[04:54:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[04:54:45] [Craft Scheduler Thread - 35/INFO]: [Metrics] Connection refused
+[04:55:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[05:01:24] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[05:02:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[05:04:44] [Craft Scheduler Thread - 37/INFO]: [Metrics] Connection refused
+[05:08:04] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[05:09:04] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
+[05:14:44] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[05:14:45] [Craft Scheduler Thread - 38/INFO]: [Metrics] Connection refused
+[05:15:44] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+
